@@ -3,28 +3,171 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>IDAD Assignment 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interaction Design Analysis</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Assessment 1 - Interaction Design Analysis</h1>
-    <p>
-      This document is for the Interaction Design Analysis <strong>AT1</strong>
-    </p>
-    <h2>Four Topics</h2>
-    <ul>
-      <li>Information Design</li>
-      <li>Mapping</li>
-      <li>Characterisation</li>
-      <li>Feedback</li>
-    </ul>
+    <div class="container">
+      <h1>Assessment 1 - Interaction Design Analysis</h1>
 
-    <h3>Information Design</h3>
-    <p>info here</p>
+      <div class="grid-layout">
+        <!--Section Information Design-->
+        <section class="info-box info">
+          <h2>Information Design</h2>
+          <p>
+            In 7 Poems, the information is organised through a clear spatial
+            layout and semantic labelling. Each poem title, such as “The Beetle”
+            or “April Showers”, is displayed on a green bar that acts as both a
+            navigation element and a thematic cue. This creates a relationship
+            between the label and its content, supporting user orientation. Once
+            clicked, the poem unfolds one word at a time in the centre of the
+            textbox, creating a slow and rhyming information flow. The visual
+            hierarchy is clear, with small titles and larger text placed in the
+            centre. This helps guide the user’s attention naturally from
+            selecting a poem to reading it.
+          </p>
+          <p>
+            However, Liquid Entropy presents a different design in UI, with a
+            more ambiguous interface. A control panel in the top-left side
+            includes sliders labelled with abstract terms such as “gleams”,
+            “entropy” and “worm”. These lack a functional explanation and rely
+            on users to experiment and interpret the results through
+            audio-visual showing. Moreover, Liquid Entropy offers an immersive
+            experience for users, but the guidance is limited.
+          </p>
 
-    <h3>UI 1</h3>
-    <p>para about ui1</p>
+          <p>
+            Overall, 7 Poems gives clear structure and guidance through titles
+            and green bars, while Liquid Entropy focuses on discovery through
+            testing and does not give direct instruction.
+          </p>
+        </section>
+        <!--Section Mapping-->
+        <section class="info-box mapping">
+          <h2>Mapping</h2>
 
-    <h3>UI 2</h3>
-    <p>para about ui2</p>
+          <p>
+            In 7 Poems, the spatial layout of the green bars creates a direct
+            and intuitive connection between each interface element and its
+            associated poem. Clicking a green bar reveals the text word by word
+            alongside ambient audio, while clicking again pauses the sequence.
+            This interaction reinforces user control. The mapping is clear,
+            especially the position and function of each element, which
+            correspond smoothly to its outcome.
+          </p>
+          <p>
+            By contrast, Liquid Entropy gives users a more abstract mapping. The
+            control panel contains sliders with abstract labels like “gleams”
+            and “entropy”, which give no immediate clues about their function.
+            Users must guess and discover how each control affects the visuals
+            and audio. While this mapping fosters creative exploration, it can
+            also hinder usability for first-time users due to the lack of
+            affordance and explanatory cues. The relationship between action and
+            result is discoverable but not immediately apparent.
+          </p>
+          <p>
+            Finally, 7 Poems is easy to understand because the actions and
+            results are connected. In contrast, Liquid Entropy uses a more
+            experimental style, where the controls are less clear, encouraging
+            users to explore and discover the results by themselves.
+          </p>
+        </section>
+        <!--Two images-->
+        <figure class="image-left">
+          <img src="images/7Poems.png" alt="7 Poems" />
+          <figcaption>
+            <a href="https://tdingsun.github.io/justine/" target="_blank">
+              7 Poems - Justine Nguyễn-Nguyễn & Tiger Dingsun
+              <i class="fas fa-external-link-alt"></i>
+            </a>
+          </figcaption>
+        </figure>
+        <figure class="image-right">
+          <img src="images/LiquidEntropy.png" alt="Liquid Entropy" />
+          <figcaption>
+            <a href="https://fractalfantasy.net/#liquidentropy" target="_blank">
+              Liquid Entropy - Mika Chernov & Sinjin Hawke
+              <i class="fas fa-external-link-alt"></i>
+            </a>
+          </figcaption>
+        </figure>
+
+        <!--Section Characterisation-->
+        <section class="info-box character">
+          <h2>Characterisation</h2>
+
+          <p>
+            In 7 Poems, it uses a soft and yellow colour palette that creates a
+            fresh and natural feeling, which matches the themes of the poems.
+            The background is simple, allowing the text to stand out. When each
+            word of the poem appears, it is matched with a gentle sound, like a
+            musical note. This gives each word a sense of rhythm and turns
+            reading into a sensory experience. The overall character feels calm,
+            thoughtful, and connected to nature.
+          </p>
+          <p>
+            In contrast, Liquid Entropy uses a very different visual and sound
+            style. Its main colours are black, grey and blue, which create a
+            futuristic and almost sci-fi mood. The animation has a metallic
+            texture, and the movement feels like the flow of energy or entropy.
+            When the user adjusts the sliders, the visuals change in real time
+            and are matched with metallic and bouncing sounds. The background
+            audio is low and electronic, adding to the immersive, industrial
+            feeling. The character of Liquid Entropy is experimental, bold and
+            highly sensory.
+          </p>
+          <p>
+            Overall, the two interfaces create unique atmospheres by using
+            different visual and audio choices. 7 Poems focuses on calm
+            reflection, while Liquid Entropy creates an intense and futuristic
+            experience.
+          </p>
+        </section>
+        <!--Section Feedback-->
+        <section class="info-box feedback">
+          <h2>Feedback</h2>
+          <p>
+            In 7 Poems, feedback is both visual and auditory, working together
+            to confirm user actions and create a poetic atmosphere. Clicking a
+            green bar expands a text box with the poem, signalling that the
+            section is active. Words appear one by one with a musical note,
+            creating a sense of rhythm like playing an instrument. If the text
+            box is clicked again, the text and music pause, and the background
+            colour turns green to indicate the paused state. Multiple poems can
+            be opened at once, causing different melodies to overlap. This
+            layered feedback enhances the sensory experience but also can make
+            the soundscape more complex.
+          </p>
+          <p>
+            In Liquid Entropy, feedback is more exploratory. Sliding parameters
+            in the control panel causes immediate changes to both visual and
+            sound. The metallic textures shift in response, and electronic tones
+            alter in pitch or intensity. These actions happen without guidance,
+            so users must learn through exploration. In addition, the interface
+            includes a “reset params” option, restoring default settings and
+            encouraging repeated exploration.
+          </p>
+          <p>
+            Finally, compared to 7 Poems, where feedback is clear and state
+            changes are visually marked, Liquid Entropy focus on sensory
+            immersion and encourages user-driven exploration.
+          </p>
+        </section>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 Yang Luo s3354967. All rights reserved.</p>
+    </footer>
   </body>
 </html>
