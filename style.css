@@ -135,7 +135,7 @@ h1 {
 .image-left img,
 .image-right img {
   max-width: 100%;
-  width: audo;
+  width: auto;
   height: 400px;
   object-fit: cover;
   border-radius: 16px;
