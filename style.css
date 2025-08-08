@@ -21,6 +21,13 @@ h1 {
   color: #708090;
 }
 
+/* 
+=============
+Grid Layout for 4 sectins
+This grid layout arranges the four sections and images in a two-column format.
+Each section is assigned a specific area in the grid layout.
+*/
+
 .grid-layout {
   display: grid;
   grid-template-areas:
